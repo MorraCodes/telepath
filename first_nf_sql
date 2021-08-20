@@ -16,6 +16,7 @@ movieTitle VARCHAR(60) NOT NULL,
 movieDesc VARCHAR(60) NOT NULL,
 movieReleaseDate DATE,
 movieCertificate varchar(4),
+genre varchar(20),
 rating_id INTEGER NULL REFERENCES ratings (id)
 );
 
